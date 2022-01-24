@@ -68,7 +68,7 @@ nav button{
     background-repeat: no-repeat;
     text-align: center;
     color: white;
-    height: 600px;
+    min-height: 600px;
     position: relative;
 }	
 
@@ -82,7 +82,7 @@ nav button{
     left: 50%;
     transform: translate(-50%, -50%);
     height: 80%;
-    width: 80%;   
+    width: 70%;   
     margin-top: 6rem;
 }
 
@@ -132,18 +132,36 @@ img{
 
 .column{
     width: 25%;
+}
+
+.right{
     display: inline-block;
     position: absolute;
     right: 180px;
     top:35px;
 }
 
-.right{
-    margin-left: 8rem;
-}
-
 .wave{
-    margin-top: 10rem; 
     position: absolute;
     bottom:0;
+}
+
+.grey{
+    background-color: rgb(246,246,246);
+}
+
+.grey img{
+    float: right;
+    margin-right: 4rem;
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    top:40px;
+}
+
+.bottom{
+    transform: scale(-1, 1);
 }
