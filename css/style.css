@@ -72,7 +72,7 @@ nav button{
 }	
 
 .container-sec{
-    height: 800px;
+    height: 100vh;
     position: relative;
 }
 
@@ -87,7 +87,7 @@ nav button{
     transform: translate(-50%, -50%);
     height: 80%;
     width: 70%;   
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 
 .page{
@@ -177,10 +177,15 @@ nav button{
     margin:auto;
     height: 10%;
     background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
 }
 
 .blue{
     background-color:rgb(146,160,220) ;
     color: white;
     margin-top: 2rem;
+}
+
+.last{
+    height: 130vh;
 }
