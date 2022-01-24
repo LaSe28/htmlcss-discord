@@ -241,6 +241,11 @@ footer li{
     margin: 0.5rem 0;
 }
 
+.list-title{
+    color: rgb(118,136,212) ;
+    font-weight: bold;
+}
+
 .base{
     position: absolute;
     bottom: 0;
