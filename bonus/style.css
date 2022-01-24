@@ -120,7 +120,7 @@ nav button{
     margin-top: 1rem;
 }
 
-.arrow::before{
+.blue::before, .white::before{
     content: "\2193";
     padding-right: 0.7rem;
 }
@@ -196,7 +196,7 @@ nav button{
 }
 
 footer{
-     height: 30vh;
+     height: 80vh;
      background-color: rgb(36,39,42);
 }
 
@@ -204,7 +204,6 @@ footer{
     color: rgb(118,136,212) ;
     float: left;
     margin: 3rem;
-    position: relative;
 }
 
 footer h2{
@@ -233,21 +232,4 @@ footer ul{
 footer li{
     list-style: none;
     color: white;
-}
-
-.base{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    border-top:1px solid rgb(118,136,212);
-    margin-bottom: 1rem;
-}
-
-.base img{
-    padding-top: 3rem;
-    float: left;
-}
-
-.base .button{
-    float: right;
 }
