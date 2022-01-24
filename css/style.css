@@ -66,7 +66,6 @@ nav button{
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
     color: white;
     min-height: 600px;
     position: relative;
@@ -76,6 +75,11 @@ nav button{
     height: 800px;
     position: relative;
 }
+
+.centered{
+    text-align: center;
+}
+
 .section{
     position: absolute;
     top: 50%;
@@ -115,7 +119,7 @@ nav button{
     margin-top: 1rem;
 }
 
-.white::before{
+.blue::before, .white::before{
     content: "\2193";
     padding-right: 0.7rem;
 }
@@ -125,7 +129,8 @@ nav button{
     background: black;
 }
 
-img{
+
+.first img{
     float: left;
     
 }
@@ -150,7 +155,7 @@ img{
     background-color: rgb(246,246,246);
 }
 
-.grey img{
+.mid img{
     float: right;
     margin-right: 4rem;
 }
@@ -164,4 +169,18 @@ img{
 
 .bottom{
     transform: scale(-1, 1);
+}
+
+.centered h2{
+    display: inline-block;
+    width: 40%;
+    margin:auto;
+    height: 10%;
+    background-image: url(../img/stars.svg);
+}
+
+.blue{
+    background-color:rgb(146,160,220) ;
+    color: white;
+    margin-top: 2rem;
 }
