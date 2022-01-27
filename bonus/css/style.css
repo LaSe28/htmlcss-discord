@@ -177,7 +177,7 @@ nav button{
     width: 40%;
     margin:auto;
     height: 10%;
-    background-image: url(../img/stars.svg);
+    background-image: url(../../img/stars.svg);
     background-repeat: no-repeat;
 }
 
@@ -210,6 +210,7 @@ footer{
     margin: 3rem;
     margin-right: 0.8vw;
     position: relative;
+
 }
 
 footer h2{
